@@ -27,3 +27,20 @@ node -v
     - nvm alias default 8.11.1
 
 
+## Analysing bundle size
+
+Source map explorer analyse bundle size
+
+    - npm install --save source-map-explorer
+
+Package.json
+    
+    "scripts": {
+        "analyze": "source-map-explorer build/static/js/main.*",
+
+Build and Run analyze
+    
+    npm run build
+    npm run analyze
+
+
