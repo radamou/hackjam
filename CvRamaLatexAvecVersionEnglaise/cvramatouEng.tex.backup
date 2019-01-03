@@ -1,0 +1,124 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\usepackage{verbatim}
+% moderncv themes
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+% character encoding
+\usepackage[utf8]{inputenc}                
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+              
+% personal data
+\firstname{Adamou Issa}
+\familyname{Ramatou}
+
+\title{Expert in IT Engineering}
+\address{16 Avenue Quihou}{94160, Saint-Mandé}    
+\mobile{06-28-60-59-44}                    
+\email{ramatouadamou@gmail.com}
+%\homepage{www.rama-event.com} 
+%\phone{01 44 44 44 11 25}
+\social[linkedin]{radamou}  
+\social[twitter]{ramatou2015}                      
+\social[github]{radamou} 
+\extrainfo{29 ans - nationality nigérienne}
+\quote{web developper with more than 3 years experience in applications developpement}
+
+\begin{document}
+\maketitle
+
+\section{Education}
+\cventry{2012--2015}{Expert in IT Engineering - Master degree}{EPITA Kremlin Bicetre (school) - Groupe Eyrolles(company)}{Paris}{}{}
+\cventry{2011--2012}{French licence (Bachelor)Management of computer engineering - web developper}{CFA UTEC (school) - Technema (company}{Seine et Marne}{}{}
+\cventry{2009--2011}{2nd degree in IT}{Lycée Louise Michel(school)}{Bobigny}{}{}
+
+\section{Work Experience}
+\cventry{Since january 2016}{IT consultant}{Leparisien}{25 Avenue Michelet, Saint-ouen}{}{
+ I had the opportunity to participate to the developpement of the Parisien new website (between january and june).
+ Our main guidelines for this project was :
+  \begin{itemize}
+   \item Back and Front : use of the latest web technologies to optimize the website access, availability and lisibility.
+   \item Project management
+       \begin{itemize}
+	  \item use of project management softwares (Trello, redmine, Agile method)
+	  \item weekly meeting with project managers.
+       \end{itemize}
+       
+  \end{itemize}
+
+ 
+}
+
+\cventry{2012--2015}{Groupe Eyrolles}{63 Boulevard Saint-Germain}{75005, Paris}{}{
+  Mission : 
+  \begin{itemize}
+     \item Éditions-Eyrolles website developpement
+      \begin{itemize}
+	\item Project management
+	\item project versioning with GIT plateforme 
+	\item Technical and fonctionnal specifications
+	\item website developpement(coding)
+	\item Search engine Optimisation and tracking management with Google analytics
+      \end{itemize}
+      \item Eyrolles.com website improvement
+      \begin{itemize}
+	\item implementation of Eyrolles.com website Search system with Solr plateforme
+	\item Création of Solr Core indexation scripts
+	\item responsive web design implementation
+	\item SEO improvement
+	\item CSS improvement
+      \end{itemize}
+      \item BackOffice improvement
+      \begin{itemize}
+	\item implementation of news modules based on Symfony2
+	\item crontab management (Debian)
+	\item code review
+	\item testing BackOffice and intranet synchronization scripts  
+	\end{itemize}
+  \end{itemize}
+}
+
+\cventry{2011--2012}{Applications developper}{Technema}{Othis, Seine et Marne}{}{
+  Work in a team of 3 application developpers. Our job was the implementation of news developpements 
+  and the maintenance of desktop application (Malta).It is a transit management application developped with Windev language.
+}
+
+\section{Technical Skills}
+\subsection{Technical Skills developped during my missions }
+\cvline{langages}{PP, JavaScript, HTML5, CSS3, JSON}
+\cvline{frameworks}{Symfony2, Orm Doctrine 2}
+\cvline{technologies}{SOLR, Apache, Nginx, Varnish, Bash Scripting, Git, Vim, PostgreSQL, jQuery, Windows, Ubuntu \& Debian}
+
+\subsection{Technical skills developped durin my school training}
+\cvline{languages}{Java, Objective C, C++, Android, C\#}
+\cvline{frameworks}{Spring, Struts, Orm Hibernate}
+\cvline{technologies}{ \LaTeX{}, Visual Studio, Eclipse, .NET, Tomcat, Bash Scripting, Git, Vim,Oracle}
+
+\section{School \& personal projects}
+\subsection{Team work}
+\cvline{JAVA EE}{On ligne movies booking places management website, airport users luggages management}
+\cvline{C/C++}{small Shell compilator project}
+
+\subsection{Individual work}
+\cvline{PHP/Symfony2} {Events management website (in progress)}
+\cvline{JAVA}{small photoshop application}
+
+\section{Activities}
+\cventry{2015}{Eyrolles Team}{Paris}{}{}{
+  Running competition at Eyrolles.(10km)
+}
+\cventry{}{Additional information}{}{}{}{
+ Reading themes
+    \begin{itemize}
+	\item Fantastic (ref: Assassin Royal de Robin Hobb)
+	\item History (ref : Les Rois maudits de Maurice Druon)
+	\item etc.
+    \end{itemize}
+}
+
+\section{Languages}
+  \cvitemwithcomment{English}{Technical level}{TOEIC : 795}
+  \cvitemwithcomment{French}{fluent}{}
+  \cvitemwithcomment{Haussa}{native tongue}{}
+  
+\end{document}
